@@ -8,7 +8,7 @@ function Contact() {
             <h2 className='text-2xl text-[#282938] font-bold'>Get In Touch</h2>
             <span className=' bg-gradient-to-r from-[#4FC3F7] to-[#282938] bg-clip-text text-transparent text-sm'>Lets work Together</span>
         </div>
-        <div className=' w-96'>
+        <div className=' min-w-96'>
             <form action='mailto:harshilj.patel65@gmail.com' method='post' encType='text/plain' className=' flex flex-col gap-4'>
                 <div>
                     <Label className='mb-2 block' value='Name' />
